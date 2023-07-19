@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Our Venues</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+	<section class="venue-header">
+		<nav>
+			<a href="index.html"><img src="assets/images/logo2.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="event.html">EVENTS</a></li>	
+					<li><a href="venue.html">VENUES</a></li>	
+					<li><a href="gallery.html">GALLERY</a><li>	
+						<li><a href="contact.html">CONTACT</a></li>		
+					</ul>
+				</div>
+				<i class="fa fa-bars" onclick="showMenu()"></i>
+
+			</nav>
+			<h1>Venues for you</h1>
+		</section>
+
+		<!------------Venues Content ------------>
+
+		<section class="campus">
+	<h1>Our Venues</h1>
+	<p>Here you can choose different venues in different locations</p>
+
+	<div class="row">
+		<div class="campus-col">
+			<img src="assets/images/ktm.jpeg">
+			<div class="layer">
+				<h3>KATHMANDU</h3>
+			<a href="view.html" class="view-btn"><h4>View</h4></a>
+		</div>
+		</div>
+		<div class="campus-col">
+			<img src="assets/images/bkt.jpg">
+			<div class="layer">
+				<h3>BHAKTAPUR</h3>
+				<a href="view.html" class="view-btn"><h4>View</h4></a>
+			</div>
+		</div>
+		<div class="campus-col">
+			<img src="assets/images/lal.jpg">
+			<div class="layer">
+				<h3>LALITPUR</h3>
+				<a href="view.html" class="view-btn"><h4>View</h4></a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="campus">
+
+	<div class="row">
+		<div class="campus-col">
+			<img src="assets/images/hyatt.png">
+			<div class="layer">
+				<h3>HYATT HOTEL</h3>
+			<a href="view.html" class="view-btn"><h4>View</h4></a>
+		</div>
+		</div>
+		<div class="campus-col">
+			<img src="assets/images/gokarna.jpg">
+			<div class="layer">
+				<h3>GOKARNA RESORT</h3>
+				<a href="view.html" class="view-btn"><h4>View</h4></a>
+			</div>
+		</div>
+		<div class="campus-col">
+			<img src="assets/images/gold.jpg">
+			<div class="layer">
+				<h3>GOLD COAST</h3>
+				<a href="view.html" class="view-btn"><h4>View</h4></a>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+		<!-- Footer -->
+<section>
+	
+
+	<footer class="footer">
+  	 <div class="container">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<h4>company</h4>
+  	 			<ul>
+  	 				<li><a href="#">about us</a></li>
+  	 				<li><a href="#">our services</a></li>
+  	 				<li><a href="#">privacy policy</a></li>
+  	 				<li><a href="#">affiliate program</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Quick Links</h4>
+  	 			<ul>
+  	 				<li><a href="about.html">About</a></li>
+  	 				<li><a href="event.html">Events</a></li>
+  	 				<li><a href="venue.html">Venue</a></li>
+  	 				<li><a href="gallery.html">Gallery</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Uss</h4>
+  	 			<ul>
+  	 				<li><a href="#">watch</a></li>
+  	 				<li><a href="#">bag</a></li>
+  	 				<li><a href="#">shoes</a></li>
+  	 				<li><a href="#">dress</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>follow us</h4>
+  	 			<div class="social-links">
+  	 				<a href="#"><i class="fa fa-facebook-f"></i></a>
+  	 				<a href="#"><i class="fa fa-twitter"></i></a>
+  	 				<a href="#"><i class="fa fa-instagram"></i></a>
+  	 			</div>
+  	 		</div>
+  	 	</div>
+  	 	<h5>Copyright &copy 2022 eventnepal</h5>
+  	 </div>
+  </footer>
+</section>
+
+		<!-- JavaScript for Menu -->
+
+		<script type="text/javascript">
+			var navLinks= document.getElementById("navLinks")
+
+			function showMenu(){
+				navLinks.style.right="0";
+			}
+
+			function hideMenu(){
+				navLinks.style.right="-200px";
+			}
+
+
+
+		</script>
+	</body>
+	</html>
